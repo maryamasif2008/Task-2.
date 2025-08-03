@@ -1,9 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Welcome = () => {
+function Welcome() {
   const navigate = useNavigate();
-
   return (
     <div className="welcome-container">
       <h1>Welcome To NED University</h1>
@@ -14,6 +13,6 @@ const Welcome = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Welcome;
